@@ -1,12 +1,10 @@
 import os
-from dotenv import load_dotenv
 import streamlit as st
 import google.generativeai as genai
 from pypdf import PdfReader
 from PIL import Image
 import pytesseract
 import io
-load_dotenv()
 
 # ===============================
 # CONFIGURATION
@@ -105,5 +103,6 @@ st.markdown("---")
 st.caption(
     "⚙️ Powered by Google Gemini | MVP for DocInsight"
 )
+
 
 
